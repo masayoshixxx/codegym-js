@@ -15,5 +15,5 @@ async function callApiWeather () {
   }
 };
 
-addEventListener("load", callApiWeather);
-document.addEventListener("change", callApiWeather);
+window.addEventListener("load", callApiWeather);
+area.addEventListener("change", callApiWeather);
